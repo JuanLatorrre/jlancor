@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JL.Ancor · Pañoletas para mascotas</title>
+  <meta name="description" content="JL.Ancor: pañoletas para perros y gatos, cómodas, creativas y llenas de estilo.">
+  <meta property="og:title" content="JL.Ancor · Pañoletas para mascotas">
+  <meta property="og:description" content="Pañoletas para perros y gatos, cómodas, creativas y llenas de estilo.">
+  <meta property="og:image" content="img/logo.jpg">
+  <meta name="theme-color" content="#14213D">
+  <link rel="icon" href="img/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="paw" viewBox="0 0 64 64">
+      <ellipse cx="18" cy="22" rx="7" ry="9"/>
+      <ellipse cx="46" cy="22" rx="7" ry="9"/>
+      <ellipse cx="8" cy="38" rx="6" ry="8"/>
+      <ellipse cx="56" cy="38" rx="6" ry="8"/>
+      <path d="M32 32c-10 0-18 10-18 18 0 6 5 8 10 7 3-1 5-2 8-2s5 1 8 2c5 1 10-1 10-7 0-8-8-18-18-18z"/>
+    </symbol>
+  </svg>
+
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__brand">
+      <img src="img/logo.jpg" alt="" width="40" height="40">
+      <span>JL<b>.</b>Ancor</span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#qr">QR</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__paws" aria-hidden="true">
+        <svg class="paw p1"><use href="#paw"/></svg>
+        <svg class="paw p2"><use href="#paw"/></svg>
+        <svg class="paw p3"><use href="#paw"/></svg>
+        <svg class="paw p4"><use href="#paw"/></svg>
+        <svg class="paw p5"><use href="#paw"/></svg>
+      </div>
+      <div class="hero__text reveal">
+        <p class="eyebrow">Pañoletas para perros y gatos</p>
+        <h1>Estilo y personalidad <span class="hl">para tu mascota</span></h1>
+        <p class="lead">Diseños cómodos, creativos y hechos con cariño para que tu peludo luzca único en cada paseo.</p>
+        <div class="hero__cta">
+          <a href="#productos" class="btn btn--primary">Ver productos</a>
+          <a href="#nosotros" class="btn btn--ghost">Conócenos</a>
+        </div>
+      </div>
+      <div class="hero__art reveal">
+        <div class="hero__circle"></div>
+        <img src="img/logo.jpg" alt="Logo JL.Ancor: husky con pañoleta amarilla" class="hero__logo">
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="section__head reveal">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="title">Nuestra esencia</h2>
+      </div>
+      <div class="about__grid">
+        <article class="mv-card reveal">
+          <div class="mv-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 4a6 6 0 1 1-6 6 6 6 0 0 1 6-6zm0 3a3 3 0 1 0 3 3 3 3 0 0 0-3-3z"/></svg>
+          </div>
+          <h3>Misión</h3>
+          <p>En JL.Ancor nos dedicamos al diseño y elaboración de pañoletas para perros y gatos, creando productos de calidad, cómodos, creativos y llenos de estilo. Buscamos resaltar la personalidad de cada mascota y fortalecer el vínculo entre las mascotas y sus familias, ofreciendo diseños innovadores y una atención cercana que genere confianza y satisfacción en nuestros clientes.</p>
+        </article>
+        <article class="mv-card reveal">
+          <div class="mv-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 5C6.5 5 2.7 9.2 1.5 12c1.2 2.8 5 7 10.5 7s9.3-4.2 10.5-7C21.3 9.2 17.5 5 12 5zm0 11a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm0-6a2 2 0 1 0 2 2 2 2 0 0 0-2-2z"/></svg>
+          </div>
+          <h3>Visión</h3>
+          <p>Para el año 2030, JL.Ancor será una empresa reconocida a nivel nacional por sus pañoletas para perros y gatos, destacándose por la calidad, creatividad e innovación de sus productos. Queremos crecer de manera sostenible, ampliar nuestra variedad de diseños y llegar a más familias que desean consentir, vestir y hacer lucir únicas a sus mascotas.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="section products" id="productos">
+      <div class="section__head reveal">
+        <p class="eyebrow">Catálogo</p>
+        <h2 class="title">Nuestras pañoletas</h2>
+      </div>
+
+      <div class="prices reveal">
+        <div class="price">
+          <span class="price__size">Mediana</span>
+          <span class="price__value">$4.000</span>
+        </div>
+        <div class="prices__sep" aria-hidden="true"><svg><use href="#paw"/></svg></div>
+        <div class="price">
+          <span class="price__size">Grande</span>
+          <span class="price__value">$6.000</span>
+        </div>
+      </div>
+
+      <div class="grid">
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="img/huellitas-trio.jpg" alt="Tres pañoletas: negra con huellas rojas y blancas, roja con huellas de colores y negra con huellas blancas" loading="lazy">
+            <span class="badge">3 diseños</span>
+          </div>
+          <div class="card__body">
+            <h3>Colección Huellitas</h3>
+            <p>Negra con huellas rojas, roja con huellas de colores y negra con huellas blancas.</p>
+            <div class="chips"><span class="chip">M · $4.000</span><span class="chip">G · $6.000</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="img/tom-jerry.jpg" alt="Pañoleta blanca con puntos y personajes Tom y Jerry" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3>Tom &amp; Jerry</h3>
+            <p>Fondo blanco con puntos grises y los clásicos personajes animados.</p>
+            <div class="chips"><span class="chip">M · $4.000</span><span class="chip">G · $6.000</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="img/little-puppy.jpg" alt="Pañoleta azul con perritos y huesos amarillos, texto Little Puppy" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3>Little Puppy</h3>
+            <p>Azul intenso con perritos tiernos y huesitos amarillos.</p>
+            <div class="chips"><span class="chip">M · $4.000</span><span class="chip">G · $6.000</span></div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="img/paw-patrol.jpg" alt="Pañoleta rosada con personajes de Patrulla Canina" loading="lazy">
+          </div>
+          <div class="card__body">
+            <h3>Patrulla Canina Rosa</h3>
+            <p>Rosada con Skye y Everest, ideal para las consentidas de la casa.</p>
+            <div class="chips"><span class="chip">M · $4.000</span><span class="chip">G · $6.000</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- QR -->
+    <section class="section qr" id="qr">
+      <div class="qr__box reveal">
+        <div class="qr__text">
+          <p class="eyebrow">Compártenos</p>
+          <h2 class="title">Escanea y visítanos</h2>
+          <p>Apunta la cámara de tu celular a este código para abrir nuestra página. Descárgalo para imprimirlo en etiquetas, tarjetas o empaques.</p>
+          <button class="btn btn--primary" id="qrDownload" type="button">Descargar QR</button>
+          <p class="qr__url" id="qrUrl"></p>
+        </div>
+        <div class="qr__code">
+          <div id="qrcode" aria-label="Código QR de la página"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="img/logo.jpg" alt="" width="56" height="56">
+    <p><strong>JL.Ancor</strong> · Pañoletas para perros y gatos</p>
+    <p class="footer__small">© <span id="year"></span> JL.Ancor. Hecho con cariño para tu mascota.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
