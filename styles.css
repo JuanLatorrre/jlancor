@@ -181,7 +181,6 @@ h1, h2, h3 { font-family: "Fredoka", sans-serif; color: var(--navy); line-height
 .qr__box p { margin-bottom: 24px; }
 .qr__box .btn--primary { background: var(--yellow); color: var(--navy); }
 .qr__box .btn--primary:hover { background: #ffc94d; }
-.qr__url { font-size: .85rem; opacity: .6; margin-top: 14px; word-break: break-all; }
 .qr__code {
   justify-self: center; padding: 18px; background: var(--white); border-radius: 22px;
   box-shadow: 0 0 0 8px rgba(244, 184, 46, .35); animation: glow 3s ease-in-out infinite;

@@ -38,7 +38,6 @@ document.querySelectorAll(".reveal").forEach((el) => {
 const siteUrl = location.protocol.startsWith("http")
   ? location.origin + location.pathname.replace(/index\.html$/, "")
   : "https://juanlatorrre.github.io/jlancor/";
-document.getElementById("qrUrl").textContent = siteUrl;
 
 if (window.QRCode) {
   new QRCode(document.getElementById("qrcode"), {
