@@ -37,7 +37,7 @@ document.querySelectorAll(".reveal").forEach((el) => {
 // Código QR apuntando a la URL publicada
 const siteUrl = location.protocol.startsWith("http")
   ? location.origin + location.pathname.replace(/index\.html$/, "")
-  : "https://jlancor.netlify.app/";
+  : "https://juanlatorrre.github.io/jlancor/";
 document.getElementById("qrUrl").textContent = siteUrl;
 
 if (window.QRCode) {
