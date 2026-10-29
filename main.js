@@ -46,7 +46,7 @@ if (window.QRCode) {
     height: 440,
     colorDark: "#14213D",
     colorLight: "#FFFFFF",
-    correctLevel: QRCode.CorrectLevel.H,
+    correctLevel: QRCode.CorrectLevel.M,
   });
 }
 
